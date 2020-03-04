@@ -43,6 +43,36 @@ Make use of RSS newsfeed provided by Wordpress websites
 ### Set up an auto Twitter post, customized using the RSS [merge tag](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/) *|RSS:RECENTxxx|*. xxx is a number, in our case 10 indicating that the 10 newest posts _since the last email was sent_. They will show up as hyperlinks where the text is the title of the posts. 
 ![Twitter](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20Setup%20Mailchimp(1).png)
 
+## Select the full width campaign template for more space
+![Template](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20HTML%20Mailchimp.png)
+
+## Now we customize our email template
+![Email template](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20Template%20Designer%20Mailchimp(1).png)
+
+#### Greeting for the user in text:
+```Hello, *|IF:EMAIL ! <<Email Address>>|**|EMAIL|**|ELSE:|*friend*|END:IF|*, You may be interested in new article(s) I've written on my website, matthew.krupczak.org:```
+##### In my signup form, I only ask for an email address (and not first name / last name) in order to reduce user friction. 
+
+##### If a user is reading the campaign in email, it would be nice to mention their email address specifically so they know it's not mass spam.
+
+##### If a user is viewing the campaign page from Twitter, no email address will be available. We can greet them as 'friend' instead
+
+##### This can be accomplished using [conditional block tags:](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/#Conditional_block_tags)
+```*|IF:EMAIL ! <<Email Address>>|**|EMAIL|**|ELSE:|*friend*|END:IF|*```
+
+If the user's email address is not a placeholder from Mailchimp's software, print the user's email. Else, print "friend". 
+
+## Let's look at our template again:
+![Email template](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20Template%20Designer%20Mailchimp(1).png)
+
+
+### *|RSS:RECENTxxx|*. xxx is a number, in our case 10 indicating that the 10 newest posts _since the last email was sent_. They will show up as hyperlinks where the text is the title of the posts. 
+[RSS Merge Tags](https://mailchimp.com/help/rss-merge-tags/) merge tags are included which will show the title, date of publication, and full HTML content of the latest post on my website
+
+## Dynamic Social Cards:
+
+
+
 
 
 
