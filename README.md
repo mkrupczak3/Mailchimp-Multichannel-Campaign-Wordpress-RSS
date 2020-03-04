@@ -1,4 +1,5 @@
 # Mailchimp Multichannel Campaign Wordpress RSS
+![Krupczak Logo](https://raw.githubusercontent.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/master/krupczak-1-4.png "Krupczak Logo")
 
 ## Scenario:
 
