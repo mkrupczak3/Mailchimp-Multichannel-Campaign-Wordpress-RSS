@@ -12,9 +12,10 @@ On my website [matthew.krupczak.org](https://matthew.krupczak.org) AKA [foobarba
 ## Wordpress setup
 
 Use Existing Wordpress setup:
-* Digital Ocean hosting a Linux Ubuntu server
-* Easy Engine for installing Wordpress
-* Mailchimp for Wordpress plugin (M4WP) to add sign-up forms to site on Homepage and at bottom of every post
+* [Digital Ocean](https://www.digitalocean.com/) hosting a Linux [Ubuntu](https://ubuntu.com/) server
+* [Easy Engine](https://easyengine.io/) for installing Wordpress
+* [[Mailchimp for Wordpress plugin](https://wordpress.org/plugins/mailchimp-for-wp/) (M4WP) to add sign-up forms to site on Homepage and at bottom of every post
+* (alternate) use [Jetpack for Wordpress](https://wordpress.org/plugins/jetpack/)
 
 ## RSS campaign with Mailchimp
 
