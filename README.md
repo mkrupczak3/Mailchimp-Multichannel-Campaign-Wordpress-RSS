@@ -24,25 +24,25 @@ Make use of RSS newsfeed provided by Wordpress websites
 * This feed contains the Titles, Dates, and contents of the website's posts
 * By telling Mailchimp to monitor it, we can set up an automation to send out an email and post to Twitter whenever a new post is created
 
-## Creating a Mailchimp RSS Campaign:
+# Creating a Mailchimp RSS Campaign:
+## Create a new campaign
 ![Campaign](https://raw.githubusercontent.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/master/Screenshot_2020-03-04%20Campaigns%20Mailchimp.png)
-Create a new campaign
 
+## Search for "RSS" and create an "RSS" or "Blog" campaign
 ![RSS Campaign](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaigns%20Mailchimp(1).png)
-Search for "RSS" and create an "RSS" or "Blog" campaign
 
+## Input the feed URL provided by our Wordpress site to Mailchimp
 ![Feed URL](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20RSS%20Feed%20Mailchimp.png)
 
-Input the feed URL provided by our Wordpress site to Mailchimp
-
+## Email to the whole list
 ![Recipients](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20Recipients%20Mailchimp.png)
-Email to the whole list
 
+## Personalize our campaign info, customized using the [merge tag](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/) *|RSSFEED:DATE|* to inform and entice the reader
 ![Campaign Info](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20Setup%20Mailchimp(2).png)
-Personalize our campaign info, customized using the [merge tag](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/) *|RSSFEED:DATE|* to inform and entice the reader
 
+### Set up an auto Twitter post, customized using the RSS [merge tag](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/) *|RSS:RECENTxxx|*. xxx is a number, in our case 10 indicating that the 10 newest posts _since the last email was sent_. They will show up as hyperlinks where the text is the title of the posts. 
 ![Twitter](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20Setup%20Mailchimp(1).png)
-Set up an auto Twitter post, customized using the RSS [merge tag](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/) *|RSS:RECENTxxx|* where xxx is a number, in our case 10 indicating that the 10 newest posts _since the last email was sent_ as hyperlinks where the text is the title of the posts. 
+
 
 
 
