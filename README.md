@@ -1,4 +1,4 @@
-# Mailchimp Multichannel Campaign Wordpress RSS
+# Using Mailchimp with Wordpress's RSS feed to email subscribers with new posts
 ![Krupczak Logo](https://raw.githubusercontent.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/master/krupczak-1-4.png "Krupczak Logo")
 
 ## Scenario:
