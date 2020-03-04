@@ -37,10 +37,10 @@ Make use of RSS newsfeed provided by Wordpress websites
 ## Email to the whole list
 ![Recipients](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20Recipients%20Mailchimp.png)
 
-## Personalize our campaign info, customized using the [merge tag](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/) *|RSSFEED:DATE|* to inform and entice the reader
+## Personalize our campaign info, customized using the [merge tag](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/) \*|RSSFEED:DATE|\* to inform and entice the reader
 ![Campaign Info](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20Setup%20Mailchimp(2).png)
 
-### Set up an auto Twitter post, customized using the RSS [merge tag](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/) *|RSS:RECENTxxx|*. xxx is a number, in our case 10 indicating that the 10 newest posts _since the last email was sent_. They will show up as hyperlinks where the text is the title of the posts. 
+### Set up an auto Twitter post, customized using the RSS [merge tag](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/) \*|RSS:RECENTxxx|\*. xxx is a number, in our case 10 indicating that the 10 newest posts _since the last email was sent_. They will show up as hyperlinks where the text is the title of the posts. 
 ![Twitter](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20Setup%20Mailchimp(1).png)
 
 ## Select the full width campaign template for more space
@@ -66,7 +66,7 @@ If the user's email address is not a placeholder from Mailchimp's software, prin
 ![Email template](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20Template%20Designer%20Mailchimp(1).png)
 
 
-### *|RSS:RECENTxxx|*. xxx is a number, in our case 10 indicating that the 10 newest posts _since the last email was sent_. They will show up as hyperlinks where the text is the title of the posts. 
+### \*|RSS:RECENTxxx|\*. xxx is a number, in our case 10 indicating that the 10 newest posts _since the last email was sent_. They will show up as hyperlinks where the text is the title of the posts. 
 [RSS Merge Tags](https://mailchimp.com/help/rss-merge-tags/) merge tags are included which will show the title, date of publication, and full HTML content of the latest post on my website
 
 ## Dynamic Social Cards:
