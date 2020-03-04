@@ -108,4 +108,16 @@ If the user's email address is not a placeholder from Mailchimp's software, prin
 
 
 ## Dynamic Social Cards:
+![Social Card](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20Pre-delivery%20Checklist%20Mailchimp.png)
+### To inform and entice the reader, I use a [RSS Merge Tag](https://mailchimp.com/help/rss-merge-tags/) to include the date and title of my most recent post
 
+
+## Social Card Preview:
+![Social Card Preview](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20Pre-delivery%20Checklist%20Mailchimp(1).png)
+
+# .
+# . 
+# .
+# Putting it all together:
+## The Final Product:
+![Matt's Tech Bytes new posts for 03 04 2020](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/blob/master/Screenshot_2020-03-04%20Matt's%20Tech%20Bytes%20new%20posts%20for%2003%2004%202020.png)
