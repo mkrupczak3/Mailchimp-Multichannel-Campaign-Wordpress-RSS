@@ -58,7 +58,7 @@ Make use of RSS newsfeed provided by Wordpress websites
 
 
 
-### Set up an auto Twitter post, customized using the RSS [merge tag](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/) \*|RSS:RECENTxxx|\*. xxx is a number, in our case 10 indicating that the 10 newest posts _since the last email was sent_. They will show up as hyperlinks where the text is the title of the posts. 
+### Set up an auto Twitter post, customized using the RSS [merge tag](https://mailchimp.com/help/all-the-merge-tags-cheat-sheet/) \*|RSS:RECENTxxx|\*. xxx is a number, in our case 10 indicating that the 10 newest posts _since the last email was sent_ will be included. They will show up as hyperlinks where the text is the title of the posts. 
 ![Twitter](https://github.com/mkrupczak3/Mailchimp-Multichannel-Campaign-Wordpress-RSS/raw/master/Screenshot_2020-03-04%20Campaign%20Builder%20-%20Setup%20Mailchimp(1).png)
 
 
