@@ -21,7 +21,7 @@ Use Existing Wordpress setup:
 
 Make use of RSS newsfeed provided by Wordpress websites
 * Every Wordpress website provides an [RSS newsfeed](https://en.wikipedia.org/wiki/RSS) at example.com/feed in a standard format
-* This feed contains the Titles, Dates, and contents of the website's posts
+* This feed contains the titles, dates, and contents of the website's posts
 * By telling Mailchimp to monitor it, we can set up an automation to send out an email and post to Twitter whenever a new post is created
 
 
@@ -101,7 +101,7 @@ If the user's email address is not a placeholder from Mailchimp's software, prin
 
 
 
-### \*|RSS:RECENTxxx|\*. xxx is a number, in our case 10 indicating that the 10 newest posts _since the last email was sent_. They will show up as hyperlinks where the text is the title of the posts. 
+### \*|RSS:RECENTxxx|\*. xxx is a number, in our case 10 indicating that the 10 newest posts _since the last email was sent_ will be included. They will show up as hyperlinks where the text is the title of the posts. 
 [RSS Merge Tags](https://mailchimp.com/help/rss-merge-tags/) are included directly after this which will show the title, date of publication, and full HTML content of the latest post on my website
 
 
