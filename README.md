@@ -102,7 +102,7 @@ If the user's email address is not a placeholder from Mailchimp's software, prin
 
 
 ### \*|RSS:RECENTxxx|\*. xxx is a number, in our case 10 indicating that the 10 newest posts _since the last email was sent_. They will show up as hyperlinks where the text is the title of the posts. 
-[RSS Merge Tags](https://mailchimp.com/help/rss-merge-tags/) merge tags are included which will show the title, date of publication, and full HTML content of the latest post on my website
+[RSS Merge Tags](https://mailchimp.com/help/rss-merge-tags/) are included directly after this which will show the title, date of publication, and full HTML content of the latest post on my website
 
 
 
