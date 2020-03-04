@@ -14,16 +14,17 @@ On my website [matthew.krupczak.org](https://matthew.krupczak.org) AKA [foobarba
 Use Existing Wordpress setup:
 * [Digital Ocean](https://www.digitalocean.com/) hosting a Linux [Ubuntu](https://ubuntu.com/) server
 * [Easy Engine](https://easyengine.io/) for installing Wordpress
-* [[Mailchimp for Wordpress plugin](https://wordpress.org/plugins/mailchimp-for-wp/) (M4WP) to add sign-up forms to site on Homepage and at bottom of every post
-* (alternate) use [Jetpack for Wordpress](https://wordpress.org/plugins/jetpack/)
+* [Mailchimp for Wordpress plugin](https://wordpress.org/plugins/mailchimp-for-wp/) (M4WP) to add sign-up forms to site on Homepage and at bottom of every post
+* (alternate) you could use [Jetpack for Wordpress](https://wordpress.org/plugins/jetpack/)
 
 ## RSS campaign with Mailchimp
 
-Make use of RSS newsfeed provided by Wordpress
+Make use of RSS newsfeed provided by Wordpress websites
 * Every Wordpress website provides an [RSS newsfeed](https://en.wikipedia.org/wiki/RSS) at example.com/feed in a standard format
 * This feed contains the Titles, Dates, and contents of the website's posts
 * By telling Mailchimp to monitor it, we can set up an automation to send out an email and post to Twitter whenever a new post is created
 
 ## Screencaps, Mailchimp configs, and Merge tags
+
 
 
